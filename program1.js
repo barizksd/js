@@ -71,7 +71,40 @@
 
 // Relational Operatores 
 
-x= 20;
-y=30;
+// x= 20;
+// y=30;
 
-console.log(x<y);
+// console.log(x<y);
+
+// Logical Operatios
+
+// a=10;
+
+// console.log(` 5,a,5 : ${5<a && a<20}`);
+// console.log(` 5,a,5 : ${5<a || a<5}`);
+// console.log(` 5,a,5 : ${5<a != a<30}`);
+
+// console.log(a !=10);
+
+// increment and decrement
+
+// inc =15;
+// console.log(`ingrement of inc before value ${inc}`);
+// inc ++
+// inc ++
+// inc ++
+// inc ++
+// console.log(`value of inc after increment ${inc}`);
+
+// inc --
+// console.log(`valu of decrement ${inc}`);
+
+// a = 20;
+
+// a+= 30;
+// console.log(a);
+
+// a =20;
+
+// a -=30;
+// console.log(a);
