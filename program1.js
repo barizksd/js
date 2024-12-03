@@ -32,6 +32,46 @@
 // console.log(n);
 // let n ="newp"
 
-for(var i=1; i<=10; i++){
-    console.log(i);
-}
+// for(var i=1; i<=10; i++){
+//     console.log(i);
+// }
+
+// x = 10;
+// y = 75;
+// z = x+y;
+// console.log(z);
+
+
+
+// syntax:- `conent $[variblename]`
+
+// x =20;
+// y =30;
+
+// console.log(`sum of ${x} and ${y} is = ${x+y}`);
+
+//  a = "luminar Technolab";
+//  b = "kakkanad";
+
+// console.log(`is  study in ${a} locatied at ${b}`);
+
+
+// operaiors
+
+// x =10;
+// y =40;
+
+// console.log(`sum of y and x = ${x+y}`);
+// console.log(`sum of y and x = ${x-y}`);
+// console.log(`sum of y and x = ${x*y}`);
+// console.log(`sum of y and x = ${x/y}`);
+// console.log(`sum of y and x = ${x**y}`);
+// console.log(`sum of y and x = ${x%y}`);
+
+
+// Relational Operatores 
+
+x= 20;
+y=30;
+
+console.log(x<y);
