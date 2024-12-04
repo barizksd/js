@@ -108,3 +108,45 @@
 
 // a -=30;
 // console.log(a);
+
+
+// age =12;
+
+// if(age>=18){
+//     console.log(`eligible for voting `);
+// }
+// else{
+//     console.log(`Not Eligible for voting`);
+// }
+
+// num = -10;
+
+// if(num >= 0){
+//     console.log("Number is positive")
+// }
+// else if(num==0){
+//     console.log("the give number is neither positive or negative")
+// }
+// else{
+//     console.log("the given number is Negative")
+// }
+
+// num=10;
+
+// console.log(num>0? "the give number is postive" : num ==0? "the number is zero" : "the number is negative")
+
+// age =18;
+
+//     console.log(age>=18? "eligible for voting" : "Not eligible for voting")
+
+num1 =500;
+num2 =600;
+
+if(num1>=num2){
+    console.log(`Number one is largest number ${num1}`)
+}
+else{
+    console.log(`Number two is largest number ${num2}`)
+}
+
+console.log(num1>=num2? `Number one is larges number ${num1}` : `Number two is largest number ${num2}`)
