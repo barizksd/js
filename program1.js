@@ -387,12 +387,98 @@
     // break used to break or exit fro the loop farcefully onluy ofr parent loop. can reduce no"of iteration
 
 
-    for(i=1; i<=10; i++){
-        console.log("valu")
-        if(i<=5){
-            console.log(i);
-        }
-    }
+    // for(i=1; i<=10; i++){
+    //     console.log("valu")
+    //     if(i<=5){
+    //         console.log(i);
+    //     }
+    // }
 
 
     // write a program a gvien number is prime or not 
+
+    // pritnt star models
+
+           
+
+    // for(row =1; row<=4; row++){
+        
+    //    str ="" 
+    //    for(col=1; col<=7; col++){
+    //     if(row==4 || row+col==5 || col-row==3){
+    //         str = str + "*"
+    //     }else {
+    //         str = str+ ""
+    //     }
+    //    }
+    //    console.log(str);
+
+    // }
+
+    //strar model printing 
+
+    // for(row =1; row<=7; row++){
+    //     str ="";
+    //     for(col=1; col<=7; col++){
+    //         if(row==1 || col==1|| row==7 || col==7){
+    //             str = str+"* "
+
+    //          }else{
+    //             str = str + "  "
+    //          }
+    //         }
+    //         console.log(str);
+    // }
+
+    //star print sandultimer 
+
+    // for(row=1; row<=5; row++){
+    //     str ="";
+    //     for(col=1; col<=5; col++){
+    //         if(row==1 || row+col==6 || row==col || row==5){
+    //             str = str+"* "
+    //         }else {
+    //             str= str+ "  "
+    //         }
+    //     }
+    //     console.log(str);
+    // }
+
+        // H.W :- to print the model dimond star
+
+        //       *
+        //      * *
+        //     * * *
+        //    * * * *
+        //   * * * * *
+        //    * * * *
+        //     * * * 
+        //      * *
+        //       *  
+
+    
+
+    for(row=1; row<=4; row++){
+        str ="";
+        for(col=1; col<=row; col++){
+            if((row+col)%2==0){
+                str = str+"1 ";
+            }else{
+                str = str+"0 ";
+            }
+        }
+        console.log(str);
+    }
+
+    num =11;
+    for(row=1; row<=5; row++){
+        str= "";
+        for(space=1; space<=(5-row); space++){
+            str = str+"   "
+        }
+        for(col=1; col<=(2*row)-1; col++){
+            str = str+num+" "
+            num++
+        }
+        console.log(str);
+    }
