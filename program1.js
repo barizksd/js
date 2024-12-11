@@ -458,27 +458,138 @@
 
     
 
-    for(row=1; row<=4; row++){
-        str ="";
-        for(col=1; col<=row; col++){
-            if((row+col)%2==0){
-                str = str+"1 ";
-            }else{
-                str = str+"0 ";
-            }
-        }
-        console.log(str);
-    }
+    // for(row=1; row<=4; row++){
+    //     str ="";
+    //     for(col=1; col<=row; col++){
+    //         if((row+col)%2==0){
+    //             str = str+"1 ";
+    //         }else{
+    //             str = str+"0 ";
+    //         }
+    //     }
+    //     console.log(str);
+    // }
 
-    num =11;
-    for(row=1; row<=5; row++){
-        str= "";
-        for(space=1; space<=(5-row); space++){
-            str = str+"   "
-        }
-        for(col=1; col<=(2*row)-1; col++){
-            str = str+num+" "
-            num++
-        }
-        console.log(str);
-    }
+    // num =11;
+    // for(row=1; row<=5; row++){
+    //     str= "";
+    //     for(space=1; space<=(5-row); space++){
+    //         str = str+"   "
+    //     }
+    //     for(col=1; col<=(2*row)-1; col++){
+    //         str = str+num+" "
+    //         num++
+    //     }
+    //     console.log(str);
+    // }
+
+
+    // --------------- functions ---------------------
+
+// 1
+    // function add(num1,num2){
+    //     sum = num1+num2;
+    //     return sum;
+    //     console.log(sum);
+        
+    // }
+    // console.log(add(33, 44))
+    // add(10, 20)
+    // add(50, 30)
+
+// write a javascrpt function find the coube of a given number
+
+    // function cube(num){
+        
+    //     return num**3;
+    // }
+    // console.log(cube(2))
+    
+
+    // write a program is odd or even 
+
+    // function oddoreven(num){   //function oddoreven(num2%==0)
+    //     if(num%2==0){
+    //         console.log("the number is even")
+    //     }else{
+    //         console.log("the number is odd")
+    //     }
+
+    //     //return num2%==0? "even":"odd"
+       
+    // }
+    // console.log(oddoreven(6));
+
+    // .write a program postive and nigative
+
+    // function positivenig(num){
+    //     if(num>=0){
+    //         console.log("the number is positive");
+    //     }else{
+    //         console.log("the number is nigative");
+    //     }
+    // }
+    // positivenig(-20);
+    
+    // function positivenig(num){
+    //    return num>=0? "positive": "nigative" 
+    // }
+    // positivenig(20);
+
+    // ------arrow function--------
+
+    // var cube = (num)=> num**3;
+    // console.log(cube(2));
+
+
+
+    // ----------function call back---------
+
+    // function student(name,mark){
+    //     console.log(name);
+    //     mark();
+
+    // }
+
+    // function mark(){
+    //     mark = 55;
+    //     console.log(mark);
+    // }
+
+    // student("steev", mark )
+
+
+    // function parent(){
+    //     console.log("the main function");
+
+    //     function child(){
+    //         console.log("second function nexted function")
+    //     }
+    //     child();
+    // }
+    // parent();
+
+    // function parent(){
+    //     const parantvar = "a";
+    //     // console.log("the main function");
+    //     console.log(`parant varible is ${parantvar}`);
+    //     // console.log(`child varible is ${chilvarble}`);
+
+    //     function child(){
+    //         const chilvarble = "b";
+    //         // console.log("second function nexted function");
+    //         // console.log(`child varible is ${chilvarble}`);
+    //         console.log(`parant varible is ${parantvar}`);
+    //     }
+    //     child();
+    // }
+    // parent();
+
+    // console.log("my 1st log");
+    // setTimeout(() => {
+    //     console.log("my 2nd log");
+    // }, 7000);
+    // console.log("my 3rd log");
+
+
+    
