@@ -801,67 +801,67 @@
 
 
 
-    m=0;
+    // m=0;
 
-    employee = [
-        [1000,`Neel`,`developer`,`kochi`,25000,3],
-        [1001,`Max`,`tester`,`tvm`,20000,2],
-        [1002,`Maxwell`,`QA`,`kochi`,35000,4],
-        [1003,`Vyom`,`QA`,`kochi`,45000,6],
-        [1004,`laisa `,`Tester`,`tvm`,30000,1],
-        [1005,`Aahan`,`developer`,`kochi`,22000,2],
-        [1006,`Ahil`,`developer`,`kochi`,26000,5],
+    // employee = [
+    //     [1000,`Neel`,`developer`,`kochi`,25000,3],
+    //     [1001,`Max`,`tester`,`tvm`,20000,2],
+    //     [1002,`Maxwell`,`QA`,`kochi`,35000,4],
+    //     [1003,`Vyom`,`QA`,`kochi`,45000,6],
+    //     [1004,`laisa `,`Tester`,`tvm`,30000,1],
+    //     [1005,`Aahan`,`developer`,`kochi`,22000,2],
+    //     [1006,`Ahil`,`developer`,`kochi`,26000,5],
 
-    ]
-
-
-    // print total numbers of emplye name 
-
-    for(let m of employee){
-        console.log(m[1]);
-
-    }
-
-    // print total number of employee 
-
-    console.log(employee.length);
-    console.log("---------------------");
-
-    // print developer employeee details 
-
-    for(let emp of employee){
-        if(emp[2]=="developer"){
-            console.log(emp[1]);
-        }
-    }
-
-    console.log("----------------------");
+    // ]
 
 
-    // print employee salary > 30000 
+    // // print total numbers of emplye name 
 
-    for(let slary of employee){
-        if(slary[4]>=30000){
-            console.log(slary[1]);
-        }
-    }
+    // for(let m of employee){
+    //     console.log(m[1]);
 
-    // print deatile for laisa 
+    // }
 
-    for(let name of employee){
-        if(name[1]=="laisa"){
-            console.log(name);
-        }
-    }
+    // // print total number of employee 
 
-    // arrange employe based on their salary in decending order 
+    // console.log(employee.length);
+    // console.log("---------------------");
 
-    sal = employee.sort((a,b)=>b[4]-a[4]);
-    console.log(sal);
-    console.log("----------------------------");
+    // // print developer employeee details 
 
-    // print the employ experinece in ascending order 
+    // for(let emp of employee){
+    //     if(emp[2]=="developer"){
+    //         console.log(emp[1]);
+    //     }
+    // }
 
-    exp = employee.sort((a,b)=>a[5]-b[5]);
-    console.log(exp);
-    console.log("--------------------------------")
+    // console.log("----------------------");
+
+
+    // // print employee salary > 30000 
+
+    // for(let slary of employee){
+    //     if(slary[4]>=30000){
+    //         console.log(slary[1]);
+    //     }
+    // }
+
+    // // print deatile for laisa 
+
+    // for(let name of employee){
+    //     if(name[1]=="laisa"){
+    //         console.log(name);
+    //     }
+    // }
+
+    // // arrange employe based on their salary in decending order 
+
+    // sal = employee.sort((a,b)=>b[4]-a[4]);
+    // console.log(sal);
+    // console.log("----------------------------");
+
+    // // print the employ experinece in ascending order 
+
+    // exp = employee.sort((a,b)=>a[5]-b[5]);
+    // console.log(exp);
+    // console.log("--------------------------------")
