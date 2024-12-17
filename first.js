@@ -10,11 +10,14 @@
 // console.log(b);
 
 
-num1= 60;
-num2= 40;
-console.log(`first value ${num1} ${num2}`)
-num1 = num1 + num2;
-num2 = num1 - num2;
-num1 = num1 - num2;
+// num1= 60;
+// num2= 40;
+// console.log(`first value ${num1} ${num2}`)
+// num1 = num1 + num2;
+// num2 = num1 - num2;
+// num1 = num1 - num2;
 
-console.log(` second value ${num1} ${num2}`);
+// console.log(` second value ${num1} ${num2}`);
+
+// write a progarm common number oform the given 2 array
+

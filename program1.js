@@ -592,4 +592,276 @@
     // console.log("my 3rd log");
 
 
-    
+//   --------------  arrrys ----------------
+
+
+
+// week = [`monday`, `tuesday`,`wednesday`];
+// console.log(week);
+// console.log(week[0]);
+
+// week.push(`Thursday`);
+// console.log(week);
+
+// week.push(1);
+// console.log(week);
+
+// week.unshift(`Sunday`);
+// console.log(week);
+
+// week.pop();
+// console.log(week);
+
+// roll=[1,2,3,4,5,6,7,8,9,10];
+
+// console.log(roll);
+
+// roll.push(11);
+// console.log(roll);
+
+// roll.unshift(0);
+// console.log(roll);
+
+// roll.pop();
+// console.log(roll);
+
+// roll.shift();
+// console.log(roll);
+
+// fruits = [`apple`,`orange`, `pineapple`,`kiwi`];
+// // console.log(fruits);
+
+// for(i=0; i<=fruits.lenth-1; i++){
+//   console.log(fruits[i]);
+// }
+
+// roll=[1,2,3,4,5,6,7,8,9,10];
+
+// for(i=0; i<=roll.lenth; i++){
+//     console.log(roll[i]);
+// }
+
+
+// console.log(`-------------------`);
+// for(let key in fruits){
+//     console.log(key);
+// }
+
+// console.log(`--------------------`);
+// for(let key of fruits){
+//     console.log(key);
+// }
+
+// writa a program to find the highest expense
+
+// expanse = [15000,35000,2000,65000,10000];
+
+// highest = expanse[0];
+
+// for(let exp of expanse){
+//     // console.log(exp);
+//   if(highest < exp){
+//     highest = exp;
+//   }
+// }
+// console.log(highest);
+
+// lowest =expanse[0];
+// for(let exp of expanse){
+//     if(lowest > exp){
+//         lowest = exp;
+//     }
+// }
+// console.log(lowest);
+
+// sum = highest+lowest;
+// console.log(sum)
+
+
+// write a program to check wheater array 2 is present in the given array
+
+// arr =[12,13,14,3,2,1,9];
+
+// isprest= false;
+
+// for(let num of arr){
+//     if(num==2){
+//         isprest=true;
+//         break;
+//     }
+// }
+// console.log(isprest? `2 is present`:`2 is not present`);
+
+//wite a program to print the folowing o/p for a given array
+
+// a=[4,5,6];
+
+// sum=0;
+// b=[];
+
+// for(let num of a){
+//     sum+=num;
+// }
+// console.log(`sum is ${sum}`);
+
+// for(let num of a ){
+//     b.push(sum-num);
+// }
+// console.log(b);
+
+
+// write a program  to dublicate element from the given Array
+
+// dubli = 0;
+// a =[10,20,30,40,50,20,40,60];
+
+// sum = 0;
+//     for(let num of a){
+//         if(num==num){
+//             sum = num; 
+//         }
+//     }
+// console.log(sum);
+
+// p=[10,11,12,13,14,15];
+// q=[11,20,25,30,33];
+
+// a=0;
+// b=0;
+
+// isDuplicat =false;
+
+// while(a<p.length && b<q.length){
+//     if(p[a]==q[b]){
+//         isDuplicat =true;
+//         console.log(p[a]);
+//         a++;
+//         b++;
+//     }else if(p[a]<q[b]){
+//         a++;
+//     }else{
+//         b++;
+//     }
+// }
+// !isDuplicat && console.log(`no common numbers`);
+
+// a =[2,3,4,5];
+
+// low =0;
+// up = a.length-1;
+// pairsum=8;
+
+// while(low<up){
+//     currentsum =a[low] + a[up]
+//     if(currentsum == pairsum){
+//         console.log(`(${a[low]}, ${a[up]} )`);
+//         break;
+//     }else if(currentsum> pairsum){
+//         up--
+//     }else{
+//         low++
+//     }
+// }
+
+// write a program to protint all numbers form the  given array 
+
+// arr =[[2,5],[4,6],[6,7,8],[2,7]];
+
+// for(let a of arr){
+//     for( let b of a){
+//         console.log(b);
+//     }
+// }
+
+// wraite a program find all the even number from the given array 
+
+// arr =[[2,5],[4,6],[6,7,8],[2,7]];
+
+
+//     for(let a of arr){
+//         for(let b of a){
+//             if(b%2==0){
+//                 console.log(`${b}`);
+//             }
+
+            
+//         }
+//     }
+
+
+
+// arr =[[2,5],[4,6],[6,7,8,[2,3,5]],[2,7]];
+
+// b = arr.flat();
+// b = arr.flat(2);
+// b = arr.flat(Infinity);
+
+// console.log(b);
+
+
+
+
+    m=0;
+
+    employee = [
+        [1000,`Neel`,`developer`,`kochi`,25000,3],
+        [1001,`Max`,`tester`,`tvm`,20000,2],
+        [1002,`Maxwell`,`QA`,`kochi`,35000,4],
+        [1003,`Vyom`,`QA`,`kochi`,45000,6],
+        [1004,`laisa `,`Tester`,`tvm`,30000,1],
+        [1005,`Aahan`,`developer`,`kochi`,22000,2],
+        [1006,`Ahil`,`developer`,`kochi`,26000,5],
+
+    ]
+
+
+    // print total numbers of emplye name 
+
+    for(let m of employee){
+        console.log(m[1]);
+
+    }
+
+    // print total number of employee 
+
+    console.log(employee.length);
+    console.log("---------------------");
+
+    // print developer employeee details 
+
+    for(let emp of employee){
+        if(emp[2]=="developer"){
+            console.log(emp[1]);
+        }
+    }
+
+    console.log("----------------------");
+
+
+    // print employee salary > 30000 
+
+    for(let slary of employee){
+        if(slary[4]>=30000){
+            console.log(slary[1]);
+        }
+    }
+
+    // print deatile for laisa 
+
+    for(let name of employee){
+        if(name[1]=="laisa"){
+            console.log(name);
+        }
+    }
+
+    // arrange employe based on their salary in decending order 
+
+    sal = employee.sort((a,b)=>b[4]-a[4]);
+    console.log(sal);
+    console.log("----------------------------");
+
+    // print the employ experinece in ascending order 
+
+    exp = employee.sort((a,b)=>a[5]-b[5]);
+    console.log(exp);
+    console.log("--------------------------------")
