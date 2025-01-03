@@ -865,3 +865,328 @@
     // exp = employee.sort((a,b)=>a[5]-b[5]);
     // console.log(exp);
     // console.log("--------------------------------")
+
+    // write a program to find the square of each item form a given array 
+
+    // a = [1,3,4,5,6];
+
+    // for(let num of a){
+    //     console.log(num**2);
+    // }
+
+    // console.log("----------------------");
+
+
+    // //foreach use print aray elements 
+
+    // a.forEach(num=> console.log(num**2));
+    // console.log("----------------------------");
+
+
+    // map use array elements are printing 
+
+    // b = a.map((num)=>num**2);
+    // console.log(b);
+    // console.log("------------------------------");
+
+    // // wraite to print the cube of all elements in a given array using map
+
+    // c = a.map ((num)=> num**3);
+    // console.log(c);
+    // console.log("------------------------------");
+
+
+    // write a program a crate a new array with numbers 
+    // 1. if the parents array is havi9ng number lessthan or equal to 13, the new array should have a incremenr value.
+    // 2. if the parent array is having number geater than 13, the new array should decrement the vale 
+
+    // a = [10,11,12,13,14,15];
+    //     c = a.map((num)=>num<13? num+1 : num-1);
+    //     console.log(c);
+
+
+    //write a program to find the sum of  all elements in a given array
+        // a =[20,15,35,8,2];
+
+            // sum = 0;
+        // for(let num of a){
+        //     sum = sum + num;
+            
+        // }
+        // console.log(sum);
+
+
+        // sum = arr.reduce((n1,n2)=>n1+n2);
+        // console.log(sum);
+
+        // highest = a.reduce((n1,n2)=>n1>n2? n1 : n2)
+        // console.log(highest);
+
+        // lowest = a.reduce((n1,n2)=>n1<n2? n1 : n2)
+        // console.log(lowest);
+
+        // write to print with only even numbers 
+
+        // arr = [1,2,3,4,5,6];
+
+        // b = [];
+        // for(let num of  arr){
+        //     if(num%2==0){
+        //         b.push(num)
+        //     }
+        // }
+        // console.log(b);
+        // console.log("-----------------------");
+
+        // newArray = arr.filter((num)=>num%2==0);
+        // console.log(newArray);
+
+        // write a program to print a new array with numbers grater than form the given array 
+
+        // arr = [1,2,3,4,5,6];
+        
+        // NewArray = arr.filter((num)=>num>3)
+        // console.log (NewArray);
+
+        // x = arr.some((num)=>num>3)
+        // console.log(x? `yes` : `no`);
+        // console.log(`--------------------------`);
+
+        //wtire a program find the first element that is grater than 3 in the fiven array
+
+        // arr = [1,2,3,4,5,6];
+
+        // a = arr.find((num)=>num>3);
+        // console.log(a);
+
+        // console.log(`------------------------`);
+
+        // b = arr.includes(3);
+        // console.log(b? `yes` : `no`);
+
+        // employee = [
+        //         [1000,`Neel`,`developer`,`kochi`,25000,3],
+        //         [1001,`Max`,`tester`,`tvm`,20000,2],
+        //         [1002,`Maxwell`,`QA`,`kochi`,35000,4],
+        //         [1003,`Vyom`,`QA`,`kochi`,45000,6],
+        //         [1004,`laisa `,`Tester`,`tvm`,30000,1],
+        //         [1005,`Aahan`,`developer`,`kochi`,22000,2],
+        //         [1006,`Ahil`,`developer`,`kochi`,26000,5],
+        
+        //     ];
+
+        //     //print all employee name 
+
+        //     employee.forEach((emp)=>console.log(emp[1]));
+
+        //     console.log("-----------------------------------");
+
+        //     //print total number of employe
+
+        //     console.log(`total numbe of emepolyes is ${employee.length}`);
+
+        //     console.log("------------------------------------");
+
+        //     dev = employee.filter((emp)=>emp[2]=="developer").forEach((item)=>console.log(item[1]));
+
+        //     console.log(`----------------------------------------------------`);
+
+        //     // print employee whose salary > 30000
+
+        //     employee.filter((emp)=>emp[4]>3000).forEach(item=>console.log(item[1]));
+        //     console.log("--------------------------------");
+
+        //     laisa = employee.find(emp=>emp[1]=="laisa");
+        //     console.log(laisa);
+
+        //     // arrange employee based one their salary  in descending order 
+
+        //     sal = employee.sort((a,b)=>a[5]-b[5]);
+        //     console.log(sal);
+
+
+    // pritnt the id name price stock 
+    
+    // product=[
+    //     [1,"hide and seek",50,20],
+    //     [2,"lays",20,80],
+    //     [3,"oreo",40,100],
+    //     [4,"parleG",25,10],
+    //     [5,"tiger",20,30],
+    //     [6,"unibic",60,0]
+
+    // ];
+
+    // to print the product id 
+    // product.forEach((num)=>console.log(num[0]));
+
+    //to print the product name 
+
+    // console.log("------------------------------------");
+
+    // product.forEach((prod)=>console.log(prod[1]));
+
+
+
+    //to print the product out of stock items
+    // console.log("------------------------------------");
+
+    // product.filter((stok)=>stok[2]<50).forEach((item)=>console.log(item[1]));
+
+    
+
+    // //print costly product name 
+    // console.log("------------------------------------");
+
+
+    // colsty = product.reduce((prod1,prod2)=>prod1[1]>prod2? prod1 : prod2)
+    // console.log(`The costly product is : ${colsty[1]}`);
+
+    // //print out of stock product
+
+    // console.log("------------------------------------");
+    
+    // product.filter((item)=>item[3]<1).forEach((pro)=>console.log(pro[1]));
+
+
+    // //print sort products based on stock in decsending order
+
+    // console.log("------------------------------------");
+
+    // product.sort((a,b)=>b[3]-a[3]).forEach((item)=>console.log(item[1],item[3]));
+
+    // //to print product having maximum available stock prodcuts 
+
+    // console.log("------------------------------------");
+
+    // today class 31/12/2024 
+
+    // accounts=[
+    //     {
+    //         acno:1000,ac_type:'savings',balance:45000,transaction:[
+    //             {
+    //                 to:1001,amount:5000,msg:'ebill',mode:'gpay'
+    //             },
+    //             {
+    //                 to:1002,amount:2000,msg:'emi',mode:'neft'
+    //             },
+    //             {
+    //                 to:1003,amount:1000,msg:'recharge',mode:'phonePay'
+    //             },
+    //         ]
+    //     },
+    //     {
+    //         acno:1001,ac_type:'current',balance:30000,transaction:[
+    //             {
+    //                 to:1000,amount:1000,msg:'grossary',mode:'gpay'
+    //             },
+    //             {
+    //                 to:1002,amount:7000,msg:'gift',mode:'phonePay'
+    //             },
+    //             {
+    //                 to:1003,amount:10000,msg:'emi',mode:'neft'
+    //             },
+    //         ]
+    //     },
+    //     {
+    //         acno:1002,ac_type:'fixed',balance:100000,transaction:[
+    //             {
+    //                 to:1000,amount:5000,msg:'ebill',mode:'gpay'
+    //             },
+    //             {
+    //                 to:1001,amount:2000,msg:'emi',mode:'neft'
+    //             },
+    //             {
+    //                 to:1003,amount:1000,msg:'recharge',mode:'phonePay'
+    //             },
+    //         ]
+    //     },
+    //     {
+    //         acno:1003,ac_type:'savings',balance:30000,transaction:[
+    //             {
+    //                 to:1001,amount:5000,msg:'ebill',mode:'gpay'
+    //             },
+    //             {
+    //                 to:1002,amount:2000,msg:'emi',mode:'neft'
+    //             },
+    //             {
+    //                 to:1000,amount:1000,msg:'recharge',mode:'phonePay'
+    //             },
+    //         ]
+    //     }
+    // ]
+    
+    // //1. total number of accounts
+
+    // console.log(`the number of total accout number is : ${accounts.length}`)
+    
+    // //2. print account number whose ac_type is savings
+
+    // accounts.filter((item)=>item.ac_type=="savings").forEach((item)=>console.log(`number of savings accounts ${item.acno}`));
+    
+    // //3.print the balance of accnount number 1000
+
+    // bal = accounts.find((item)=>item.acno==1000)
+    // console.log( `acount number is 1000 balance is ${bal.balance}`);
+
+    // // or model online time 
+
+    // console.log(accounts.find((item)=>item.acno==1000).balance)
+    
+    // //4. print all gpay transactions
+
+    // accounts.map((item)=>item.transaction).flat().filter((item)=>item.mode =="gpay").forEach((item)=>console.log(item));
+    // console.log("------------------------------------------------------------------------")
+    
+    // //5. print all transaction whose amount > 5000
+
+    // accounts.map((item)=>item.transaction).flat().filter((item)=>item.amount > 5000).forEach((item)=>console.log(item));
+    // console.log("------------------------------------------------------------------------")
+
+    
+    // //6. print credit transaction of account 1002
+
+    // creadit = accounts.map((item)=>item.transaction).flat().filter((item)=>item.to ==1002)
+    // console.log(`creadit account is : ${creadit}`);
+    // console.log("------------------------------------------------------------------------")
+
+    
+    // //7. print debit transaction of account 1002
+
+    // debit =accounts.find((item)=>item.acno==1002).transaction;
+    // console.log(debit);
+    // console.log("------------------------------------------------------------------------")
+
+    
+    
+    // //8. print transaction history of 1002
+    // // const transactionstory = {
+    // //     creadit,
+    // //     debit,
+ 
+    // // }
+    // console.log(to add on creadit and debit to mege use method its use three dot ...);
+    
+    // transactionstory = [...creadit, ...debit]
+    // console.log(transactionstory)
+    // console.log("------------------------------------------------------------------------")
+
+
+    
+    //print as array
+    
+    //9. print highest balance account details
+
+
+
+
+    // note : - spread operator - ued to marge two array, represend by ( ... ) three dot use 
+
+
+
+
+   
+
+
+
+            
