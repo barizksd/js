@@ -187,13 +187,16 @@
 // hcf = 4 
 
 
-a = 12
-b = 28
-flag = 0
+// a = 12
+// b = 28
+// flag = 0
 
-for(i=2; i<=a && i<=b; i++){
-    if(a%i==0 && b%i==0){
-       flag = i;
-    }
-}
-console.log(flag)
+// for(i=2; i<=a && i<=b; i++){   // i<12
+//     if(a%i==0 && b%i==0){ // 12%2 = 0 & 28%2 = 0 its contition true 
+//        flag = i; // flag value = 1 its true only incriment the value
+//     }
+// }
+// console.log(flag) // to print flag value 
+
+
+
