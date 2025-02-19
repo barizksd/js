@@ -1,0 +1,183 @@
+
+Functions 
+
+// To do a  certain task repeated at different location of the programing file 
+
+// funciton have two parts
+// 1. Function definition 
+// 2. Function call 
+
+//syntax
+// function function_name(){ 
+// statement
+// } 
+
+// function call 
+// function_name() 
+
+callback functions ---------------------------------
+
+// function greet(name,callback){
+//     console.log(`Hai ${name}`)
+//     callback()
+// }
+
+nested function----------------------- 
+
+// function A(){
+//     console.log("Inside function A")
+//     B()
+
+//     function B(){
+//         console.log("Inside function B")
+//     }
+// }
+
+// A();
+
+// time delay function  ----------------------------------------
+
+// setTimeout(()=>{
+//     console.log("inside timeout delay ");
+
+// },5000)
+
+not : -- ******************************************************************************************************* 
+// To do a  certain task repeated at different location of the programing file 
+
+// funciton have two parts
+// 1. Function definition 
+// 2. Function call 
+
+//syntax
+// function function_name(){ 
+// statement
+// } 
+
+// function call 
+// function_name() 
+
+//1. Variable inside a functionishaveing functional scope - can access only onside the function.
+//2. Return - Inoder to access variable outside the function 
+//3. Statements after the return statement wil not execute 
+
+
+// ------ Arrow function ------- 
+// 1. Es6 - Version onwords - arrow function is prefered
+
+// stntax 
+// const varariablename = ()=> {statement}
+// varariablename()
+
+// if there is only single line in function there is no need for{} and tturn is automativally done furtheremore there is 
+// no need for return keyword explicitly 
+
+// ----- Callback Function -------- 
+// * Function calling another function 
+// * callbacke functions are passed as arguments to another function and is executed after the function
+//   completes its execution 
+
+
+//  ------------- predefined functions -----------------
+//* eg: paresInt, math.floor, console.log, Number , String, typeOf()
+
+
+// ----------- nested function ------------------
+//* function defined inside another function 
+
+//------------- Functional Hoisting ------------
+//* regualr funtion is hoising posibel 
+//* arrow function cant posibel hoisting
+
+//-------- colsure property ---------------
+//* variable inside the parent funcion can be accessed inde the child function but the varibable inside the child function cannot be
+// accessed inside the parent function 
+
+//------- synchronous and Asynchronous ---------
+
+//* synchronous funtion - functions without any time delay 
+//* Asynchronous function - functions with time delay - eg: Api , setTimeOut()
+
+// --------- DataStructure ---------------------
+//* A specialised formate for organizing, processing retrieving and storing data 
+//* eg : Array, Stack , queue , list , Linkedlist 
+
+// ----- array ----- 
+//* Unlike varibles arrray can hold more than one data of different dataType that are separated by commas
+// and enclosed within a  Square bracket 
+//    --- syntax ---
+// varaiablename = data 
+// arrayname = [data1, data2, data3 ]
+
+// key:value pairs data is stored 
+// key = index value - o - length-1 of that array 
+// value = data 
+
+
+//array operations --------------
+// 1. get usnig index location
+// 2. add - push() - is used to add items as the last element of an array   
+// 3. unshift() - add items to an array as first element
+
+
+// condition && true statement 
+
+
+//   ***********************************************************************************************************
+
+***************************************************************************************
+
+// ----------------arary-------------- 
+
+// arr = [ 1, 2, 3, 4, 5, 6, 7]
+// console.log(arr);
+
+array operations --------------
+1. get usnig index location
+2. add - push() - is used to add items as the last element of an array   
+3. unshift() - add items to an array as first element
+4. pop() - Delete the last item for an array 
+5. shift() - Delete the first item of an array 
+
+
+6. sort () - to arrange the given arrau in ascending or descending order
+        asecnding order 
+            Array.sort((a,b)=>a-b)
+            decending  order
+            Array.sort((a,b)=>b-a)
+7.  flat(dept) - reduce the dimension a dimension 
+            eg{
+                [[1,2] [3,4]] = [1,2,3,4]
+            }
+
+            depth is postion mention to pramiter (postiond) its has of  a change level
+
+            2d - 1 - inifinty : to use lenth of dimantion 
+
+8.    foreach() - method used to access each item from a given array 
+        
+
+9.  map() - used to access each element fromm a given array and return a new array with
+same of elements that of the parent array 
+
+10. reduce() - return a single value form the fiven array 
+    eg : - sum / highest / small  
+
+11. filter() - it a newArray with all  elemnts satsfying a particular condition 
+
+12. find() - return a first element satify a particular condition 
+
+
+different way to access items form an array 
+    --------------------------------------------
+
+        1) for loop 
+        2) in - return the indexes of an array 
+        3) of -  return the array items
+
+13. some() - to check the fiven condition is true or false // its reutrn boolion value 
+
+14. splice() -  add and remove items of an array at different location 
+     plice ( startindex, deleteconut, items... )
+
+*************************************************************************************************************
