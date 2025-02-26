@@ -1,3 +1,8 @@
+----------------------- procedural programing paradings ------------------------------
+
+Unlike oops procedural consider data and methods as two different entities and follows sterp by step computation. 
+
+
 
 Functions 
 
@@ -180,4 +185,102 @@ different way to access items form an array
 14. splice() -  add and remove items of an array at different location 
      plice ( startindex, deleteconut, items... )
 
+15. includes(item) = return to boolean value based one the item
+
+16. slice(sart index, end index) - create a sub array
+
+17. reduceRight()
+
+18. lastIndexOf
+
 *************************************************************************************************************
+
+
+----  string -------
+- sequence of characters 
+
+--------- method -----------
+
+1. startWith - check whether given staing starts with a particular character -it returns boolean value,
+ caseSensitive             
+
+2. endsWith() - check whether a given string ends with aprticular character - it returns boolean value -
+ caseSensitive 
+
+3. toUpperCase() - convert the given string into capital letters 
+
+4. toLowerCase() - convert the given string into small letters letters
+
+5. subString(startindex, endIndex) - to create subStiring
+
+6. slice(startindex, endIndex)
+
+7. trim()-remove space at the ends
+
+8. slit(separator) - retrun a newArra have the element divide based on the separator 
+                    its use empt give all letter separated 
+
+9.Replace() - it replace first matching content 
+
+10.replacAll() - replace all matching words
+
+11. Array.from()
+
+12. spread - to join two array - (...)
+     
+
+
+*********************************************** New modelu ************************************************
+
+objects : -
+------------- 
+
+- its also used store more than one data of different datatype that are separated by comes and enclosed within curly bracket
+
+- unlike array tthe store data have more clarity 
+
+console.log(x);  // its used to key  access for object array
+console.log(b[x]); // its used to print value accessing for object it index value 
+
+
+object Operations : -
+----------------------
+
+1) add - 
+    Objectname[`key`] = value
+    Object.assign(objectname,{key:value})
+    delete - delete Objectname.key
+
+
+
+-------------------- Object Oriented programing system (oops) -------------------
+
+ - its a programming paradigm which consider real time enities into object and class.
+
+ ---- Basic ----
+   
+   1. Class- Blueprint which contains common features from which differnt object can be created
+   2. object - its the real time enitiy created from class
+   3. reference - the memory location in which properties and methods are stored.
+
+
+properties -  Variables inside a class 
+
+methods - function inside a class 
+
+syntax ---
+
+   class className{
+      1. properties
+      2. constructors - used to initialize properties
+      3. methods
+   }
+
+
+
+
+
+
+
+
+
