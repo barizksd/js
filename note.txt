@@ -3,7 +3,6 @@
 Unlike oops procedural consider data and methods as two different entities and follows sterp by step computation. 
 
 
-
 Functions 
 
 // To do a  certain task repeated at different location of the programing file 
@@ -126,6 +125,8 @@ not : -- ***********************************************************************
 
 
 // condition && true statement 
+
+// eval(vaabilbe name)  = its use smol evalution errors find 
 
 
 //   ***********************************************************************************************************
@@ -273,12 +274,77 @@ syntax ---
    class className{
       1. properties
       2. constructors - used to initialize properties
-      3. methods
+      3. methods 
+      4. instance varible - 
    }
 
+   syntac - object 
+   -----------------
+   const objectname = new classname() // instance
+
+
+----- pillares of oops --------
+
+1. Inheritance
+     - used to access properties and methodes from one class to another
+     - parent class / super class / base class 
+     - child class / sub class / derived class 
+     - keyword - extends 
+     - multiy level inhertance 
+
+     object Inheritance 
+     Keyword = __proto__
+
+
+2. Polymorphism
+  -methoad overloading 
+    . methods with same name but different arguments - execues based on the arguments 
+    . js doesnt support directly 
+    . rest operator (...) - return to argument array - used to method overloading  support
+
+  - method overriding 
+    . methods with same name with same argument - last written method will wxecute 
+    . js support this concept 
+   
+3. Abstraction   // self find 
+4. encapulation  // self find
+
+
+Exception Handling
+--------------------
+- exception - run time error
+- exceptions are handled with the hwlp of try-catch block 
+
+-- syntac ---
+
+try{
+  statement that might cause error
+}
+catch{
+  statement to execute in case of errors 
+}
+
+finally {
+  statement that need to be executed in both cases 
+}
 
 
 
+
+
+----------------------------------- javaScript in Frontend ---------------------- // new class
+
+- js in the frontend is used to used to provide behaviours to web application 
+
+- Browser - its an application which provides an interface to communicate with the resources available in the internet 
+
+- Browser Engine - heml css, javaScript 
+- javaScript 
+
+- DOM - deocument object Model 
+    - created by 
+    - tree structure of html Document 
+-BOM - to reference use 
 
 
 
